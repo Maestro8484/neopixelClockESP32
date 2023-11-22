@@ -19,17 +19,9 @@
 //   Clock:  The clock uses full bidirectional SPI to retrieve and set the time & date.
 //           It also has a square wave out set at 1Hz, used as a 1 sec interrupt.
 //           ---------------------------------------------------------------------------
-//     Mic:  The mic breakout is piggybacked directly onto the MSGEQ7 breakout
-//           and only requires the 3.3V supply from the Nano.
+//     //           Can be powered from 3.3 or 5V, inputs are 5V tolerant when using 3.3V.
 //           ---------------------------------------------------------------------------
-//  MSGEQ7:  The MSGEQ7 breakout has reset and strobe inputs, one analogy input and
-//           one output. It uses the 3.3V for the Nano to power it.
-//           Audio from the Mic breakout is fed straight into the MSGEQ7 audio input.
-//           The 7 frequency bands are presented on the single analog out and the 
-//           bands are swapped using the reset and strobe pins.
-//           Can be powered from 3.3 or 5V, inputs are 5V tolerant when using 3.3V.
-//           ---------------------------------------------------------------------------
-// Simblee:  The Simblee is a new micro controller that advertised itself to an App
+// mblee:  The Simblee is a new micro controller that advertised itself to an App
 //           hosted on Apple iOS devices via BlueTooth (Android comming soon). 
 //           A Simblee app loaded on the iOS device displays a customisable user
 //           interface that can controll or display the Simblee GPIO pins.
