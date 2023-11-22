@@ -1,6 +1,6 @@
 // =====================================================================================================
-// Title:    3 RING NEO-PIXEL RGB LED CLOCK V2- with Spectrum Analyser & Simblee control
-// Author    STEVE MANLEY
+// Title:    3 RING NEO-PIXEL RGB LED CLOCK V2-
+// Author    originally by STEVE MANLEY - 
 // Function: LED Clock and Audio Spectrum Analyser
 // Board:    Arduino Nano 3.1
 // Version:  4.0
